@@ -27,6 +27,8 @@
   }
   .main-card p{
     margin-top: 4px;
+    font-weight: 600;
+    font-size:1rem;
   }
   .main-card .price-tag{
     margin-top: 150px
@@ -41,7 +43,7 @@
 }
 .main-card .price-tag .cost p{
     margin:20px 0  0 15px;
-    ;
+    font-size: 15px;
 }
 .main-card .price-tag .billing{
     margin-top:9px;
@@ -55,10 +57,11 @@ button{
     height: 50px;
     border-radius: 30px;
     background-color: white;
-    color: black;
+    color:rgba(0, 0, 0 , 0.7);
     margin: 25px 20px 0 0;
-    border: 1px solid black ;
+    border: 1px solid  rgba(0, 0, 0 , 0.7);
     font-size: 20px;
+
 }
 .services{
     margin: 25px 0 0 0 ;
@@ -71,6 +74,7 @@ button{
 .services ul li{
     display: flex;
     flex-direction: row;
+    font-weight: bold;
 }
 .services ul li .check{
     width:8%;
