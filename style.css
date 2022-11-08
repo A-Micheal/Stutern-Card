@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", "sans-serif";
+    box-sizing: border-box;
+  }
+  .general{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-top: 40px;
+  }
+  .main-card{
+    width: 20%;
+    height: auto;
+    background-color: #ffeab6;
+    color: black;
+    margin: auto;
+    border-radius: 20px;
+    padding-left:20px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .main-card h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .main-card p{
+    margin-top: 4px;
+  }
+  .main-card .price-tag{
+    margin-top: 150px
+  }
+  .main-card .price-tag .cost{
+    display: flex;
+    flex-direction: row;
+  }
+  .main-card .price-tag .cost h2{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.main-card .price-tag .cost p{
+    margin:20px 0  0 15px;
+    ;
+}
+.main-card .price-tag .billing{
+    margin-top:9px;
+}
+.main-card .price-tag .billing span{
+    font-weight: 1000;
+    font-size: large;
+}
+button{
+    width: 97%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    margin: 25px 20px 0 0;
+    border: 1px solid black ;
+    font-size: 20px;
+}
+.services{
+    margin: 25px 0 0 0 ;
+}
+.services ul{
+    margin-top: 20px;
+    margin-bottom:20px ;
+
+}
+.services ul li{
+    display: flex;
+    flex-direction: row;
+}
+.services ul li .check{
+    width:8%;
+    height:10%;
+    margin-right: 10px;
+}
+
